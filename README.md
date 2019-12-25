@@ -1,3 +1,3 @@
 # ~/.*
 
-![alt text](https://github.com/ravikumark815/DotFiles/blob/master/dot.png)
+![alt text](https://github.com/ravikumark815/dot-files/blob/master/dot.png)
