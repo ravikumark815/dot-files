@@ -1,0 +1,4 @@
+P4USER=ravikumarreddyk
+P4CLIENT=ravikumarreddyk_mamba_ng
+P4PORT=p4proxy-blr.eng.sonicwall.com:1999
+P4ROOT=/home/ravi/ng
