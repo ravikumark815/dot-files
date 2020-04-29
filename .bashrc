@@ -7,7 +7,7 @@ bind '"\e[B":history-search-forward'
 export P4CLIENT=ravikumarreddyk_mamba_ng
 export P4USER=ravikumarreddyk
 export P4PORT=p4proxy-blr.eng.sonicwall.com:1999
-export P4ROOT=/home/ravi/ng
+export P4ROOT=/opt/codes/ravi/ng
 
 # Expand the history size
 export HISTFILESIZE=10000
@@ -23,20 +23,25 @@ alias sr="screen -r"
 alias sls="screen -ls"
 alias ss="screen -S"
 alias grep="grep --color"
-alias t="tmux attach -t Ravi"
+alias t="tmux attach -t ravi"
+alias tr="tmux attach -t Ravi"
+alias p4s="p4 sync ..."
+alias p4sf="p4 sync -f ..."
+alias con="ssh sonicosdev:serial@10.194.5.102"
+alias moj="ssh sonicostools@10.194.61.82"
 
 # API
-alias vin="curl -k -i -u "admin:password" -X POST http://10.5.183.113:8000/system/login"
+alias vin="curl -k -i -u "admin:password" -X POST https://10.194.63.78/api/sonicos/system/login"
 alias vout="curl -k -i -u "admin:password" -X DELETE https://10.5.183.113:8000/api/sonicos/auth"
 
 # SonicWALL
-alias wset="cd ~/ng/SonicOS/WorkSet"
-alias 54="cd ~/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4"
-alias 545="cd ~/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5"
-alias rfi="cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_integ"
-alias rfe="cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ecli"
-alias rfr="cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ravi"
-alias v="cd /opt/codes/ravi/sonicosv"
+alias 54="cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5"
+alias rfi="cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_integ"
+alias rfe="cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ecli"
+alias rfr="cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ravi"
+alias rfu="cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ui"
+alias v="cd /home/ravi/sonicos/sonicosv"
+alias vo="cd /opt/codes/ravi/sonicosv"
 alias m300="make -j 16 sw_tz300-mc-stdeb"
 alias m300d="make -j 16 sw_tz300-mc-stdeb SW_BUILD_NOT_LOAD_DEPENDENCIES=1"
 alias m400="make -j 16 sw_tz400-mc-stdeb"
@@ -71,15 +76,15 @@ alias m665d="make -j 16 sw_octeon6650-mc-stdeb SW_BUILD_NOT_LOAD_DEPENDENCIES=1"
 swl(){
 		echo ""
         echo "Synchronizing 6.5.4.5 ..."
-        cd ~/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5/
+        cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5/
         p4 sync ...
         echo ""
 		echo "Synchronizing RFE_6545_snwl_switch_integ"
-		cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_integ/
+		cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_integ/
 		p4 sync ...
 		echo ""
 		echo "Synchronizing RFE_6545_snwl_switch_ravi"
-		cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ravi/
+		cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ravi/
 		p4 sync ...
 		echo ""
 }
@@ -87,28 +92,28 @@ swl(){
 swlc(){
 		echo ""
         echo "Synchronizing 6.5.4.5"
-        cd ~/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5/
+        cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5/
         p4 sync ...
 		ctags -R
         echo ""
         echo "Synchronizing RFE_6545_snwl_switch_ravi ..."
-        cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ravi/
+        cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6545_snwl_switch_ravi/
         p4 sync ...
 		ctags -R
         echo ""
         echo "Synchronizing RFE_6545_snwl_switch_integ ..."
-        cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_6546_snwl_switch_integ/
+        cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_6546_snwl_switch_integ/
         p4 sync ...
 		ctags -R
         echo ""
 }
 
-buildrf(){
+bsa(){
         echo "Start of buildall"
         echo ""
-        echo "RFE_654_snwl_switch"
+        echo "RFE_654_snwl_switch_ui"
         echo ""
-        cd ~/ng/SonicOS/WorkSet/6.5.4/RFE_654_snwl_switch/
+        cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/RFE_654_snwl_switch_ui/
         p4 sync ...
         echo ""
 		make -j 16 sw_tz300-mc-stdeb
@@ -147,12 +152,12 @@ buildrf(){
         echo "End of buildall"
 }
 
-build654(){
+bba(){
         echo "Start of buildall"
         echo ""
-        echo "bugfix_6.5.4"
+        echo "bugfix_6.5.4.5"
         echo ""
-        cd ~/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4/
+        cd /opt/codes/ravi/ng/SonicOS/WorkSet/6.5.4/bugfix_6.5.4.5/
         p4 sync ...
         echo ""
 		make -j 16 sw_tz300-mc-stdeb
@@ -196,3 +201,7 @@ build654(){
         echo ""
         echo "End of buildall"
 }
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
