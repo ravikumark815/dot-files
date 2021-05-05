@@ -15,7 +15,6 @@ alias vi="vim"
 alias ll="ls --color -lthra"
 alias sr="screen -r ravi"
 alias sls="screen -ls"
-alias ss="screen -S ravi"
 alias grep="grep --color"
 alias t="tmux attach -t ravi"
 alias tr="tmux attach -t Ravi"
@@ -29,7 +28,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Cisco
 # Aliases
-alias cel="ssh rreddyk@bgl-vms-vm1119.cisco.com"
+alias cel="ssh rreddyk@bgl-vms-vm1173.cisco.com"
 alias fire="ssh rreddyk@bgl-vms-vm1078.cisco.com"
 alias ct="cd /workspace/rreddyk-cel-tahoe/"
 alias cl="cd /workspace/rreddyk-cel-fxplatform/liverpool/"
