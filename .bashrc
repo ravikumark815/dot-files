@@ -30,6 +30,7 @@ export NVM_DIR="$HOME/.nvm"
 # Aliases
 alias cel="ssh rreddyk@bgl-vms-vm1173.cisco.com"
 alias fire="ssh rreddyk@bgl-vms-vm1078.cisco.com"
+alias kvm="ssh kvmuser@ngfw-auto-kvm1"
 alias ct="cd /workspace/rreddyk-cel-tahoe/"
 alias cl="cd /workspace/rreddyk-cel-fxplatform/liverpool/"
 alias genswim="/auto/sspserv1/swims-signing/swims_tic_gen"
