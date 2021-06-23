@@ -1,3 +1,4 @@
+caption always "%{= kw}%-w%{= BW}%n%t%{-}%+w %-= @%H - %LD %d %LM - %c"
 vbell on
 vbell_msg ''
 termcapinfo * vb="
