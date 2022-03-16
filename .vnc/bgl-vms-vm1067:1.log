@@ -1,0 +1,285 @@
+
+Xvnc TigerVNC 1.8.0 - built Aug  4 2020 03:33:19
+Copyright (C) 1999-2017 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12004000, The X.Org Foundation
+
+
+Fri Mar  4 16:46:14 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+
+Fri Mar  4 16:46:23 2022
+ Connections: accepted: 10.227.230.80::57636
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Mar  4 16:46:37 2022
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 10.227.230.80::57636 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Mar  4 16:46:38 2022
+ Connections: accepted: 10.227.230.80::57637
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Mar  4 16:46:45 2022
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 10.227.230.80::57637 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Mar  4 16:46:46 2022
+ Connections: accepted: 10.227.230.80::57638
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Mar  4 16:46:48 2022
+ Connections: closed: 10.227.230.80::57638 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Mar  4 16:46:58 2022
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Fri Mar  4 16:47:07 2022
+ Connections: accepted: 10.227.230.80::57642
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Mar  4 16:47:13 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Fri Mar  4 18:13:01 2022
+ Connections: closed: 10.227.230.80::57642 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 27589
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 614 rects, 14.1172 Mpixels
+ EncodeManager:            11.9922 KiB (1:4599.05 ratio)
+ EncodeManager:   Hextile:
+ EncodeManager:     Bitmap RLE: 185 rects, 2.26473 Mpixels
+ EncodeManager:                 17.9795 KiB (1:492.159 ratio)
+ EncodeManager:     Indexed RLE: 2.498 krects, 34.1681 Mpixels
+ EncodeManager:                  38.0403 MiB (1:3.42714 ratio)
+ EncodeManager:     Full Colour: 12.104 krects, 144.693 Mpixels
+ EncodeManager:                  135.154 MiB (1:4.08496 ratio)
+ EncodeManager:   Total: 15.401 krects, 195.243 Mpixels
+ EncodeManager:          173.224 MiB (1:4.30062 ratio)
+ ComparingUpdateTracker: 2.27391 Gpixels in / 2.48921 Gpixels out
+ ComparingUpdateTracker: (1:0.913509 ratio)
+
+Sun Mar  6 22:22:12 2022
+ Connections: accepted: 64.102.14.228::40318
+
+Sun Mar  6 22:22:57 2022
+ Connections: closed: 64.102.14.228::40318 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 205.122 kpixels in / 240.227 kpixels out
+ ComparingUpdateTracker: (1:0.853867 ratio)
+ Connections: accepted: 64.102.14.228::42398
+ Connections: accepted: 64.102.14.228::42400
+ SConnection: Client needs protocol version 3.3
+ SConnection: Client needs protocol version 3.8
+
+Sun Mar  6 22:22:58 2022
+ Connections: closed: 64.102.14.228::42398 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 4.658 kpixels in / 4.811 kpixels out
+ ComparingUpdateTracker: (1:0.968198 ratio)
+ SConnection: Client requests security type VncAuth(2)
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 64.102.14.228::42400 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sun Mar  6 22:25:23 2022
+ Connections: accepted: 64.102.14.228::37460
+ SConnection: Client needs protocol version 3.8
+
+Sun Mar  6 22:25:30 2022
+ Connections: closed: 64.102.14.228::37460 (Requested security type not
+              available)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 27.982 kpixels in / 34.357 kpixels out
+ ComparingUpdateTracker: (1:0.814448 ratio)
+
+Mon Mar  7 07:38:06 2022
+ Connections: accepted: 64.102.14.242::55142
+
+Mon Mar  7 07:38:51 2022
+ Connections: closed: 64.102.14.242::55142 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 208.08 kpixels in / 221.816 kpixels out
+ ComparingUpdateTracker: (1:0.938075 ratio)
+ Connections: accepted: 64.102.14.242::56312
+ Connections: accepted: 64.102.14.242::56316
+ SConnection: Client needs protocol version 3.3
+ SConnection: Client needs protocol version 3.8
+ Connections: closed: 64.102.14.242::56312 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ SConnection: Client requests security type VncAuth(2)
+
+Mon Mar  7 07:38:52 2022
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 64.102.14.242::56316 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 4.726 kpixels in / 4.913 kpixels out
+ ComparingUpdateTracker: (1:0.961938 ratio)
+
+Mon Mar  7 07:39:49 2022
+ Connections: accepted: 64.102.14.242::34156
+ SConnection: Client needs protocol version 3.8
+
+Mon Mar  7 07:39:56 2022
+ Connections: closed: 64.102.14.242::34156 (Requested security type not
+              available)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 28.39 kpixels in / 29.529 kpixels out
+ ComparingUpdateTracker: (1:0.961428 ratio)
+
+Sat Mar 12 15:46:11 2022
+ Connections: accepted: 64.102.14.248::34756
+
+Sat Mar 12 15:46:56 2022
+ Connections: closed: 64.102.14.248::34756 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 206.618 kpixels in / 218.535 kpixels out
+ ComparingUpdateTracker: (1:0.945469 ratio)
+ Connections: accepted: 64.102.14.248::59036
+ Connections: accepted: 64.102.14.248::59040
+ SConnection: Client needs protocol version 3.3
+ SConnection: Client needs protocol version 3.8
+
+Sat Mar 12 15:46:57 2022
+ Connections: closed: 64.102.14.248::59036 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 4.692 kpixels in / 4.862 kpixels out
+ ComparingUpdateTracker: (1:0.965035 ratio)
+ SConnection: Client requests security type VncAuth(2)
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 64.102.14.248::59040 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sat Mar 12 15:47:16 2022
+ Connections: accepted: 64.102.14.248::54280
+ SConnection: Client needs protocol version 3.8
+
+Sat Mar 12 15:47:24 2022
+ Connections: closed: 64.102.14.248::54280 (Requested security type not
+              available)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 28.152 kpixels in / 30.26 kpixels out
+ ComparingUpdateTracker: (1:0.930337 ratio)
+
+Wed Mar 16 07:32:33 2022
+ Connections: accepted: 173.37.95.228::37174
+
+Wed Mar 16 07:33:18 2022
+ Connections: closed: 173.37.95.228::37174 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 221.578 kpixels in / 237.711 kpixels out
+ ComparingUpdateTracker: (1:0.932132 ratio)
+
+Wed Mar 16 07:33:19 2022
+ Connections: accepted: 173.37.95.228::39820
+ Connections: accepted: 173.37.95.228::39822
+ SConnection: Client needs protocol version 3.3
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ Connections: closed: 173.37.95.228::39820 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 173.37.95.228::39822 (Authentication failure)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Wed Mar 16 07:34:24 2022
+ Connections: accepted: 173.37.95.228::58148
+ SConnection: Client needs protocol version 3.8
+
+Wed Mar 16 07:34:32 2022
+ Connections: closed: 173.37.95.228::58148 (Requested security type not
+              available)
+ EncodeManager: Framebuffer updates: 0
+ EncodeManager:   Total: 0 rects, 0 pixels
+ EncodeManager:          0 B (1:-nan ratio)
+ ComparingUpdateTracker: 30.192 kpixels in / 32.232 kpixels out
+ ComparingUpdateTracker: (1:0.936709 ratio)
+
+Wed Mar 16 09:51:48 2022
+ Connections: accepted: 10.65.74.125::56799
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Mar 16 10:40:50 2022
+ Connections: closed: 10.65.74.125::56799 (read: Connection reset by peer
+              (104))
+ EncodeManager: Framebuffer updates: 3606
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 76 rects, 792.096 kpixels
+ EncodeManager:            1.48438 KiB (1:2085.06 ratio)
+ EncodeManager:   Hextile:
+ EncodeManager:     Bitmap RLE: 36 rects, 78.398 kpixels
+ EncodeManager:                 1.51758 KiB (1:202.075 ratio)
+ EncodeManager:     Indexed RLE: 493 rects, 7.4544 Mpixels
+ EncodeManager:                  9.03603 MiB (1:3.14761 ratio)
+ EncodeManager:     Full Colour: 3.309 krects, 26.5696 Mpixels
+ EncodeManager:                  22.1309 MiB (1:4.58151 ratio)
+ EncodeManager:   Total: 3.914 krects, 34.8945 Mpixels
+ EncodeManager:          31.1698 MiB (1:4.27198 ratio)
+ ComparingUpdateTracker: 309.478 Mpixels in / 355.927 Mpixels out
+ ComparingUpdateTracker: (1:0.869498 ratio)

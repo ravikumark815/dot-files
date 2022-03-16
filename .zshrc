@@ -1,9 +1,8 @@
 # Expand the history size
 export HISTFILESIZE=10000
 export HISTSIZE=500
-shopt -s histappend
 PROMPT_COMMAND='history -a'
-export PS1="${debian_chroot:+($debian_chroot)}\u@\h:\w\$"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Aliases
 alias vi="vim"
@@ -20,7 +19,7 @@ alias tk="tmux kill-session -t ravi"
 alias p4s="p4 sync ..."
 alias p4sf="p4 sync -f ..."
 alias updu="sudo apt-get update -y && echo "----------------" && sudo apt-get upgrade -y && echo "----------------" &&  sudo apt-get autoremove -y && echo "----------------" && sudo apt-get autoclean -y && echo "----------------" && sudo apt clean -y && echo "----------------""
-alias updc="sudo yum check-update -y; echo "----------------"; sudo yum update -y; echo "----------------"; sudo yum upgrade -y; echo "----------------";  sudo yum autoremove -y; echo "---------------""
+alias updc="sudo yum check-update -y && echo "----------------" && sudo yum update -y && echo "----------------" && sudo yum upgrade -y && echo "----------------" &&  sudo yum autoremove -y && echo "---------------""
 alias src="source ~/.bashrc"
 
 function build_cscope_db_func()
@@ -123,3 +122,4 @@ export IMS_CACHE=/workspace/ms_images
 export ASA_TARBALL_URL=file:///workspace/ims_images/asa_archive_pkg.tbz2
 export ASA_QCOW2_URL=file:///workspace/ims_images/aquila.qcow2
 export OCTEON_TARBALL_URL=file:///workspace/ims_images/asa_archive_octeon.tbz2
+

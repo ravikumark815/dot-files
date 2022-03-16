@@ -1,0 +1,11 @@
+22/11/21 19:08:20 Xvnc version TightVNC-1.3.10
+22/11/21 19:08:20 Copyright (C) 2000-2009 TightVNC Group
+22/11/21 19:08:20 Copyright (C) 1999 AT&T Laboratories Cambridge
+22/11/21 19:08:20 All Rights Reserved.
+22/11/21 19:08:20 See http://www.tightvnc.com/ for information on TightVNC
+22/11/21 19:08:20 Desktop name 'X' (bgl-vms-vm1241:1)
+22/11/21 19:08:20 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+22/11/21 19:08:20 Listening for VNC connections on TCP port 5901
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
+Killing Xtightvnc process ID 75805

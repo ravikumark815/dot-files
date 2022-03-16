@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/users/rreddyk/.vim'
+let g:netrw_dirhist_2='/workspace/rreddyk-wrlts21-vermont/main/Xpix/linux/def_config'
+let g:netrw_dirhist_3='/workspace/rreddyk-wrlts21-vermont/main/asavm/python/WALinuxAgent-2.2.46/bin'
